@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IfConditions</id>
+    <version>1.0.0</version>
+    <authors>Qasim Ashraf</authors>
+    <owners>Qasim Ashraf</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/QasimAshraf25/IfConditions</projectUrl>
+    <description>Say Good Bye to Multiple If Else Code .
+IfConditions use Dictionary/Map to store conditions as keys &amp; single statement as values.</description>
+    <copyright>Axon Solution</copyright>
+    <tags>IfElse,IfConditions,Dictionary</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="ILRepackTask" version="1.0.8" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\TechnoInc\source\repos\Conditions\IfConditions\bin\Release\netstandard1.3\IfConditions.dll" target="lib\netstandard1.3\IfConditions.dll" />
+    <file src="C:\Users\TechnoInc\source\repos\Conditions\IfConditions\bin\Release\netstandard1.3\IfConditions.xml" target="lib\netstandard1.3\IfConditions.xml" />
+  </files>
+</package>

@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Conditions</name>
+    </assembly>
+    <members>
+        <member name="T:Conditions.Condition`2">
+            <summary>
+            Generic Condition Class : Generic Dictionary
+            </summary>
+            <typeparam name="K">Key</typeparam>
+            <typeparam name="V">Value</typeparam>
+        </member>
+        <member name="T:Conditions.StringCondition">
+            <summary>
+            String Condition Class :  Dictionary
+            </summary>
+        </member>
+        <member name="T:Conditions.DoubleCondition">
+            <summary>
+            Double Condition Class :  Dictionary
+            </summary>
+        </member>
+        <member name="T:Conditions.BoolCondition">
+            <summary>
+            Bool Condition Class :  Dictionary
+            </summary>
+        </member>
+        <member name="T:Conditions.IntCondition">
+            <summary>
+            Int Condition Class :  Dictionary
+            </summary>
+        </member>
+        <member name="T:Conditions.Extension">
+            <summary>
+            Extension Class
+            </summary>
+        </member>
+        <member name="M:Conditions.Extension.Find``2(Conditions.Condition{``0,``1},``0)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="keys"></param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:Conditions.Extension.Find(Conditions.StringCondition,System.String)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="keys"></param>
+            <returns>String</returns>
+        </member>
+        <member name="M:Conditions.Extension.Find(Conditions.DoubleCondition,System.Double)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="keys"></param>
+            <returns>String</returns>
+        </member>
+        <member name="M:Conditions.Extension.Find(Conditions.IntCondition,System.Int32)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="keys"></param>
+            <returns>Int</returns>
+        </member>
+        <member name="M:Conditions.Extension.Find(Conditions.BoolCondition,System.String,System.Double)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="Param"></param>
+            <param name="Value"></param>
+            <returns>String</returns>
+        </member>
+    </members>
+</doc>

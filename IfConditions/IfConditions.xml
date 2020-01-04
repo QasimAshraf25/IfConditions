@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IfConditions</name>
+    </assembly>
+    <members>
+        <member name="T:IfConditions.Condition`2">
+            <summary>
+            Condition Class for T (Generics) 
+            </summary>
+            <typeparam name="K">Key</typeparam>
+            <typeparam name="V">Value</typeparam>
+        </member>
+        <member name="T:IfConditions.StringCondition">
+            <summary>
+            Condition Class For String DataType
+            </summary>
+        </member>
+        <member name="T:IfConditions.DoubleCondition">
+            <summary>
+            Condition Class For Double DataType
+            </summary>
+        </member>
+        <member name="T:IfConditions.BoolCondition">
+            <summary>
+            Condition Class For Bool DataType
+            </summary>
+        </member>
+        <member name="T:IfConditions.IntCondition">
+            <summary>
+            Condition Class For Int DataType
+            </summary>
+        </member>
+        <member name="T:IfConditions.Extension">
+            <summary>
+            Extension Helper Class
+            </summary>
+        </member>
+        <member name="M:IfConditions.Extension.Find``2(IfConditions.Condition{``0,``1},``0)">
+            <summary>
+             Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="key">Key</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:IfConditions.Extension.Find``2(IfConditions.Condition{``0,``1},``0,``1)">
+            <summary>
+             Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="key">Key</param>
+            <param name="ElseValue">Else Value</param>
+            <returns>Value</returns>
+        </member>
+        <member name="M:IfConditions.Extension.Find(IfConditions.StringCondition,System.String)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="key">Key</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:IfConditions.Extension.Find(IfConditions.StringCondition,System.String,System.String)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="key">Key</param>
+            <param name="ElseValue">Else Value</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:IfConditions.Extension.Find(IfConditions.DoubleCondition,System.Double)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="key">Key</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:IfConditions.Extension.Find(IfConditions.IntCondition,System.Int32)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="key"></param>
+            <returns>Int</returns>
+        </member>
+        <member name="M:IfConditions.Extension.Find(IfConditions.IntCondition,System.Int32,System.Int32)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="key"></param>
+            <param name="ElseValue"></param>
+            <returns>Int</returns>
+        </member>
+        <member name="M:IfConditions.Extension.Find(IfConditions.BoolCondition,System.String,System.Double)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="varaibleName">Name of Variable Use inside Expression</param>
+            <param name="varaibleValue">Value to pass inside an Expression</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:IfConditions.Extension.Find(IfConditions.BoolCondition,System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Find Extension Function
+            </summary>
+            <param name="dictionary"></param>
+            <param name="varaibleName1">Name of Variable Use inside Expression</param>
+            <param name="varaibleName2">Name of Variable Use inside Expression</param>
+            <param name="varaibleValue1">Value to pass inside an Expression</param>
+            <param name="varaibleValue2">Value to pass inside an Expression</param>
+            <returns>String</returns>
+        </member>
+    </members>
+</doc>

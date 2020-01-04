@@ -1,0 +1,10 @@
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\bin\Release\netstandard1.3\IfConditions.deps.json
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\bin\Release\netstandard1.3\IfConditions.dll
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\bin\Release\netstandard1.3\IfConditions.pdb
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\bin\Release\netstandard1.3\IfConditions.xml
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\obj\Release\netstandard1.3\IfConditions.csprojAssemblyReference.cache
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\obj\Release\netstandard1.3\IfConditions.csproj.CoreCompileInputs.cache
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\obj\Release\netstandard1.3\IfConditions.AssemblyInfoInputs.cache
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\obj\Release\netstandard1.3\IfConditions.AssemblyInfo.cs
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\obj\Release\netstandard1.3\IfConditions.dll
+C:\Users\TechnoInc\source\repos\Conditions\IfConditions\obj\Release\netstandard1.3\IfConditions.pdb

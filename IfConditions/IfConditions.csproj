@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Qasim Ashraf</Authors>
+    <Company>AxonSolution</Company>
+    <Product>IfConditions</Product>
+    <Description>Say Good Bye to Multiple If Else Code .
+IfConditions use Dictionary/Map to store conditions as keys &amp; single statement as values.
+</Description>
+    <Copyright>Axon Solution</Copyright>
+    <LangVersion>default</LangVersion>
+    <PackageId>IfConditions</PackageId>
+    <PackageTags>IfElse,IfConditions,Dictionary</PackageTags>
+    <PackageProjectUrl>https://github.com/QasimAshraf25/IfConditions</PackageProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <DocumentationFile>C:\Users\TechnoInc\source\repos\Conditions\IfConditions\IfConditions.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\TechnoInc\source\repos\Conditions\IfConditions\IfConditions.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="IfConditions.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ILRepackTask" Version="1.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NCalc">
+      <HintPath>..\..\..\..\.nuget\packages\coreclr-ncalc\2.2.70\lib\netstandard1.3\NCalc.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
